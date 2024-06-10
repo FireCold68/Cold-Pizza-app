@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageViewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        android:alpha="0.4"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:background="@android:color/transparent">
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza Order"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black" />
+
+    <Spinner
+        android:id="@+id/spinnerPizzaType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:entries="@array/pizza_types"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerPizzaSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:entries="@array/pizza_sizes"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Toppings:"
+        android:textColor="#250D0D"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxCheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Cheese"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxGreen_Olive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Green Olives"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <CheckBox
+        android:id="@+id/checkBoxBlack_Olive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Black Olives"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxMushrooms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mushrooms"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxOnions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Onions"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/buttonOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewOrderSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

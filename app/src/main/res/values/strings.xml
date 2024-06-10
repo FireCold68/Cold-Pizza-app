@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">cold-pizza</string>
+    <string-array name="pizza_types">
+        <item>Pizza Margherita</item>
+        <item>Pizza Napoletana</item>
+        <item>Pizza al taglio</item>
+        <item>Pizza Romana</item>
+        <item>Pizza Sfincione</item>
+    </string-array>
+    <string-array name="pizza_sizes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+</resources>
