@@ -11,7 +11,9 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/background"
-        android:alpha="0.4"/>
+        android:alpha="0.4"
+        android:contentDescription="@string/todo"
+        tools:ignore="ContentDescription" />
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -24,7 +26,7 @@
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pizza Order"
+        android:text="@string/pizza_order"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_gravity="center"
@@ -36,8 +38,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:entries="@array/pizza_types"
+        android:minHeight="48dp"
         android:textSize="24sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/spinnerPizzaSize"
@@ -45,13 +48,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:entries="@array/pizza_sizes"
+        android:minHeight="48dp"
         android:textSize="24sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select Toppings:"
+        android:text="@string/select_toppings"
         android:textColor="#250D0D"
         android:layout_marginTop="16dp"
         android:textSize="24sp"
@@ -61,7 +65,7 @@
         android:id="@+id/checkBoxCheese"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Extra Cheese"
+        android:text="@string/extra_cheese"
         android:textSize="15sp"
         android:textStyle="bold"/>
 
@@ -69,14 +73,14 @@
         android:id="@+id/checkBoxGreen_Olive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Green Olives"
+        android:text="@string/green_olives"
         android:textSize="15sp"
         android:textStyle="bold"/>
     <CheckBox
         android:id="@+id/checkBoxBlack_Olive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Black Olives"
+        android:text="@string/black_olives"
         android:textSize="15sp"
         android:textStyle="bold"/>
 
@@ -84,7 +88,7 @@
         android:id="@+id/checkBoxMushrooms"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mushrooms"
+        android:text="@string/mushrooms"
         android:textSize="15sp"
         android:textStyle="bold"/>
 
@@ -92,15 +96,16 @@
         android:id="@+id/checkBoxOnions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Onions"
+        android:text="@string/onions"
         android:textSize="15sp"
         android:textStyle="bold"/>
     <Button
         android:id="@+id/buttonOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Order"
-        android:layout_marginTop="16dp"/>
+        android:text="@string/order"
+        android:layout_marginTop="16dp"
+        tools:ignore="VisualLintButtonSize" />
 
     <TextView
         android:id="@+id/textViewOrderSummary"
@@ -109,3 +114,4 @@
         android:text=""
         android:layout_marginTop="16dp"/>
 </LinearLayout>
+</FrameLayout>

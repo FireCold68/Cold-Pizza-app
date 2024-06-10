@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">cold-pizza</string>
+    <string name="order">Order</string>
+    <string name="onions">Onions</string>
+    <string name="mushrooms">Mushrooms</string>
+    <string name="black_olives">Black Olives</string>
+    <string name="green_olives">Green Olives</string>
+    <string name="extra_cheese">Extra Cheese</string>
+    <string name="select_toppings">Select Toppings:</string>
+    <string name="pizza_order">Pizza Order</string>
+    <string name="todo">TODO</string>
     <string-array name="pizza_types">
         <item>Pizza Margherita</item>
         <item>Pizza Napoletana</item>
