@@ -21,4 +21,14 @@
         <item>Medium</item>
         <item>Large</item>
     </string-array>
+    <string-array name="Drinks">
+        <item>coca cola regular</item>
+        <item>coca cola Ziro</item>
+        <item>Fanta orange</item>
+        <item>Sprit regular </item>
+        <item>Sprit Ziro </item>
+        <item>Water </item>
+        <item>Soda </item>
+        <item>orange juice </item>
+    </string-array>
 </resources>
