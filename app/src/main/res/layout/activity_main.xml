@@ -32,26 +32,41 @@
         android:layout_gravity="center"
         android:textColor="@android:color/black" />
 
-    <Spinner
-        android:id="@+id/spinnerPizzaType"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:entries="@array/pizza_types"
-        android:minHeight="48dp"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_height="108dp"
+        android:alpha="0.3"
+        android:background="@color/light_gray"
+        android:orientation="horizontal">
 
-    <Spinner
-        android:id="@+id/spinnerPizzaSize"
+        <Spinner
+            android:id="@+id/spinnerPizzaType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:entries="@array/pizza_types"
+            android:minHeight="48dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:outlineSpotShadowColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:entries="@array/pizza_sizes"
-        android:minHeight="48dp"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_height="108dp"
+        android:alpha="0.3"
+        android:background="@color/light_gray"
+        android:orientation="horizontal">
 
+        <Spinner
+            android:id="@+id/spinnerPizzaSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:entries="@array/pizza_sizes"
+            android:minHeight="48dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

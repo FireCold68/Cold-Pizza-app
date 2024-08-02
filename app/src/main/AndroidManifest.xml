@@ -11,13 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ColdPizza"
         tools:targetApi="31">
-        <activity
-            android:name=".DrinkSelectionActivity"
-            android:exported="false" />
-
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/spinner_arrow" />
 
         <activity
             android:name=".MainActivity"
