@@ -8,6 +8,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private Spinner spinnerPizzaType, spinnerPizzaSize;
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         StringBuilder toppings = new StringBuilder();
 
         if (checkBoxCheese.isChecked()) {
-            toppings.append("Cheese ");
+            toppings.append("Extra Cheese ");
         }
         if (checkBoxGreen_Olive.isChecked()) {
             toppings.append("Green Olive ");
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         if (checkBoxOnions.isChecked()) {
             toppings.append("Onions ");
         }
+
 
         String orderSummary = "Order Summary:\n" +
                 "Pizza Type: " + pizzaType + "\n" +

@@ -16,10 +16,22 @@
         <item>Pizza Romana</item>
         <item>Pizza Sfincione</item>
     </string-array>
+    <string-array name="pizza_prices">
+        <item>10.99</item>
+        <item>12.99</item>
+        <item>11.99</item>
+        <item>11.99</item>
+        <item>14.99</item>
+    </string-array>
     <string-array name="pizza_sizes">
         <item>Small</item>
         <item>Medium</item>
         <item>Large</item>
+    </string-array>
+    <string-array name="pizza_sizes_prices">
+        <item>0.00</item>
+        <item>5.00</item>
+        <item>10.00</item>
     </string-array>
     <string-array name="Drinks">
         <item>coca cola regular</item>
@@ -31,4 +43,6 @@
         <item>Soda </item>
         <item>orange juice </item>
     </string-array>
+    <string name="drink_price">9.99</string>
+    <string name="topping_prices">2.50</string>
 </resources>
